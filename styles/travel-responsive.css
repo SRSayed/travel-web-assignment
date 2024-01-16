@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px) {
+    .header,
+    .announcement,
+    .destination,
+    .newsletter-container,
+    .container, .section6{
+        width: 89%;
+        margin: 0 auto;
+    }
+    .mobile{
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+    .nav-navbar{
+        display: none;
+    }
+    .banner{
+        padding: 16px 30px;
+        background-size: cover;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner-form input{
+        width: 100%;
+    }
+    .banner-form select{
+        width: 100%;
+    }
+    .banner-form button{
+        width: 100%;
+    }
+    .banner-description{
+        width: 90%;
+    }
+    .banner-form{
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    /* promo section */
+    .announcement , .newsletter-container, .box-container, .section6{
+        flex-direction: column;
+    }
+    .announcement-banner img, .newsletter-banner img, .box-container div{
+        width: 100%;
+    }
+    .announcement-content, .newsletter-box{
+        margin-top: 50px;
+    }
+
+    /* destination section */
+
+    .destination-gallery img{
+        max-width: 530px;
+        width: 90%;
+        object-fit: cover;
+    }
+    #tera img{
+        width: 127%;
+        object-fit: cover;
+    }
+    .newsletter-container{
+        gap: 30px;
+    }
+    .footer{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .foot-description, .section4-description, .section6-description, .section6-title{
+        width: 90%;
+    }
+
+
+    .deals-container-child{
+        width: 90%;
+        height: auto;
+        left: 5%;
+    }
+    .deals-container{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section6-img{
+        width: 100%;
+    }
+    .section6{
+        gap: 20px;
+    }
+
+}

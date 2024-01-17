@@ -365,6 +365,16 @@ background: rgba(233, 68, 68, 0.05);
     font-weight: 400;
     padding: 16px 10px;
 }
+.newsletter-banner{
+   position: relative;
+}
+.newsletter-offer{
+    position: absolute;
+    right: 58%;
+    top: 3%;
+    width: 300px;
+    transform: rotate(-90deg)
+}
 hr{
     background-color: rgba(19, 19, 24, 0.10) ;
     margin-top: 30px ;
